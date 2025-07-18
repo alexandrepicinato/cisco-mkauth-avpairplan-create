@@ -1,0 +1,16 @@
+Criando polices no ASR #
+policy-map Plano-Fibra-10Mbps-IN
+ class class-default
+  police 10m
+policy-map Plano-Fibra-10Mbps-OUT
+ class class-default
+  police 10m
+
+
+Criando polices no ASR #
+policy-map [NOME DO PLANO]-IN
+ class class-default
+  police 10m
+policy-map [NOME DO PLANO]-OUT
+ class class-default
+  police 10m
